@@ -2,12 +2,14 @@
 
 body {
     display: grid;
-    grid-template: 1fr 1fr 1fr / 1fr 1fr;
+    grid-template: 1fr 1fr 1fr 1fr / 1fr 1fr;
     grid-gap: 15px;
     grid-template-areas: 
         "header header"
-        "about services"
+        "about about"
+        "services services"
         "footer footer";
+    font-family: Google Sans Flex, sans-serif;
 }
 
 .partes {
