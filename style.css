@@ -1,0 +1,15 @@
+body {
+    display: grid;
+    grid-template: 1fr 1fr 1fr / 1fr 1fr;
+    grid-gap: 15px;
+    grid-template-areas: 
+        "header header"
+        "about services"
+        "footer footer";
+}
+
+.partes {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+}
